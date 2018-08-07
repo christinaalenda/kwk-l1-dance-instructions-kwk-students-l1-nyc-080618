@@ -36,9 +36,9 @@ end
 def gangman_style
   starting_stance
   base_footwork
-  skip_step("right foot")
+  skip_step("right")
   bob_the_reins
-  skip_step("left foot")
+  skip_step("left")
   lasso
   bust_a_move
 end
