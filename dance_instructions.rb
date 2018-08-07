@@ -8,7 +8,7 @@ def base_footwork
   #finish step 3
 end
 
-def skip_step_left
+def skip_step
   puts "lower #{starting_foot} to the ground"
   puts "bounce #{starting_foot} back up slightly, kicking it a few inches back"
   puts "briefly raise the opposite foot, then the #{starting_foot} , twice more!"
@@ -31,4 +31,14 @@ end
 
 def bust_a_move
   puts "be cool and be snazzy ;)"
+end
+
+def gangman_style
+  starting_stance
+  base_footwork
+  skip_step("right foot")
+  bob_the_reins
+  skip_step("left foot")
+  lasso
+  bust_a_move
 end
