@@ -12,7 +12,7 @@ def skip_step(starting_foot)
   puts "Lower #{starting_foot} to the ground"
   puts "Bounce #{starting_foot} back up slightly, kicking it a few inches back"
   puts "Briefly raise the opposite foot, then the #{starting_foot} , twice more!"
-  skip_step("left")
+  skip_step("left foot")
 end
 
 def bob_the_reins
@@ -36,9 +36,9 @@ end
 def gangman_style
   starting_stance
   base_footwork
-  skip_step("right")
+  skip_step("right foot")
   bob_the_reins
-  skip_step("left")
+  skip_step("left foot")
   lasso
   bust_a_move
 end
